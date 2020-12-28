@@ -24,7 +24,6 @@ h3 {
 }
 
 /* Loader */
-
 .loader {
     position: fixed;
     top: 0;
@@ -40,4 +39,21 @@ h3 {
     bottom: 50%;
     left: 50%;
     transform: translate(-50%, 50%);
+}
+
+/* Image Container */
+.image-container {
+    margin: 10px 15%;
+}
+
+.image-container img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Media Query: : Large Smartphone */
+@media screen and (max-width: 600px) {
+    .image-container {
+        margin: 10px;
+    }
 }
